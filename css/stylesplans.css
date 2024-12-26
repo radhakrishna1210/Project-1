@@ -1,0 +1,125 @@
+ body{ background-image:url(../assests/bg\ img.avif);
+    background-repeat: no-repeat;
+    background-size:cover;}
+* {
+    margin: 0px;
+    padding: 0px;
+    /* color: rgb(0, 0, 0);    */
+}
+
+
+#left {
+    border: 2px solid black;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+#mid {
+    border: 2px solid black;
+    display: block;
+    width: 165px;
+    height: px;
+    margin: auto auto;
+    position: relative;
+    bottom: 40px;
+}
+
+#right {
+    width: auto;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+
+}
+nav a:hover {
+    color: black;
+    background-color: aliceblue;}
+
+#search {
+    background-color: rgb(240, 248, 255);
+}
+
+#search:hover {
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 10px; 
+    padding: 5px 10px; 
+    border: 2px solid rgb(103, 103, 103); 
+    display: inline-block;
+}
+main #plans{ 
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+main div #silver{
+    display: inline-block;
+   /* border: 2px solid black; */
+   border-radius: 30px;
+   height: 400px;
+   width: 300px;
+   margin: 50px;
+   padding-left: 10px;
+   position: relative;
+   bottom:22px;
+   background-color:rgb(255, 255, 255,0.7);
+   color:   rgba(0, 0, 0,);
+}
+
+main div #gold{
+    display: inline-block;
+   /* border: 2px solid black; */
+   border-radius: 30px;
+   height: 400px;
+   width: 300px;
+   margin: 50px;
+   padding-left: 10px;
+   background-color:rgb(255, 255, 255,0.7);
+   color:   rgba(0, 0, 0,);
+}
+main div #Dimond{
+    display: inline-block;
+   border-radius: 30px;
+   height: 400px;
+   width: 300px;
+   margin: 50px;
+   padding-left: 10px;
+   background-color:rgb(255, 255, 255,0.7);
+   color:   rgba(0, 0, 0,);
+}
+main div div #silverbutton{ 
+height: 30px;
+width:90px;
+background-color: burlywood;
+position: relative;
+top: 70px;
+}
+#silverbutton:hover {
+    background-color: darkgoldenrod;
+    color: white;}
+main div div #goldbutton{ 
+height: 30px;
+width:90px;
+background-color: burlywood;
+position: relative;
+top: 50px;
+}
+#goldbutton:hover {
+    background-color: darkgoldenrod;
+    color: white;}
+main div div #dimondbutton{ 
+height: 30px;
+width:90px;
+background-color: burlywood;
+position: relative;
+top: 50px;
+}
+#dimondbutton:hover {
+    background-color: darkgoldenrod;
+    color: white;}

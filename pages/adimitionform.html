@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK GYM APPLICATION FORM</title>
+    <style>
+        body {
+            background-image: url(../assests/bg\ img.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+
+        #left {
+            border: 2px solid black;
+            display: inline-block;
+            width: auto;
+            height: auto;
+        }
+
+        #mid {
+            border: 2px solid black;
+            display: block;
+            width: 165px;
+            height: px;
+            margin: auto auto;
+            position: relative;
+            bottom: 40px;
+            color: black;
+        }
+
+        #right {
+            width: auto;
+            display: block;
+            position: absolute;
+            right: 10px;
+            top: 15px;
+
+        }
+
+        nav a:hover {
+            color: black;
+            background-color: aliceblue;
+        }
+
+        #search {
+            background-color: rgb(240, 248, 255);
+
+        }
+
+        #search:hover {
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: aliceblue;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border: 2px solid rgb(103, 103, 103);
+            display: inline-block;
+        }
+
+        #allform {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+            left: 500px;;
+            top: 150px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th {
+            text-align: left;
+            padding: 5px;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        #next  {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: burlywood;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        #previous {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: burlywood;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        #next:hover,
+        #previous:hover {
+            background-color: darkgoldenrod;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div id="left"> <img src="../assests/Screenshot 2024-11-22 234101.png" alt="" height="50px" width="70px">
+            <img src="../assests/Sigma Softgel & Formulation.png" alt="" height="50px">
+        </div>
+
+        <div id="mid">
+
+            <center><input type="search" placeholder="Search" id="search"></center>
+
+        </div>
+
+        <div id="right">
+            <nav id="nav">
+                <a href="../home.html" id="home">Home</a>
+                <a href="#" id="about"> About</a>
+                <a href="../pages/login.html" id="login">Login</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="allform">
+            
+            <div id="form">
+                <h1 align="center">Admission Form</h1>
+                <form action="#" method="post">
+                    <h2>Personal Information:</h2>
+                    <table>
+                        <tr>
+                            <th><label for="name">Applicant's Name:</label></th>
+                            <td><input type="text" id="name"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="contactno">Contact Number:</label></th>
+                            <td><input type="tel" id="contactno"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="email">Email ID:</label></th>
+                            <td><input type="email" id="email"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="dob">Date of Birth:</label></th>
+                            <td><input type="date" id="dob"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="age">Age:</label></th>
+                            <td><input type="number" id="age" ></td>
+                        </tr>
+                        <tr>
+                            <th>Gender:</th>
+                            <td>
+                                <label><input type="radio" name="gender" value="male"> Male</label>
+                                <label><input type="radio" name="gender" value="female"> Female</label>
+                                <label><input type="radio" name="gender" value="other"> Other</label>
+                            </td>
+                        </tr>
+                    </table>  <br>
+                    <div align="center">
+                        <a href="../pages/plans.html" id="previous">&#11013;Previous</a>
+                      <a href="../pages/healthandfitnessinfo.html" id="next">Next &#10132;</a>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

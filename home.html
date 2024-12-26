@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK GYM Home</title>
+    <style>
+        body {
+            background-image: url(assests/bg\ img.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        /* #main {
+            height: 55px;
+            background-color:rgba(0, 0, 0);
+        } */
+
+
+        #left {
+            border: 2px solid black;
+            display: inline-block;
+            width: auto;
+            height: auto;
+        }
+
+        #mid {
+            border: 2px solid black;
+            display: block;
+            width: 165px;
+
+            margin: auto auto;
+            position: relative;
+            bottom: 40px;
+        }
+
+        #right {
+            width: auto;
+            display: block;
+            position: absolute;
+            right: 10px;
+            top: 15px;
+
+        }
+
+        nav a:hover {
+            color: black;
+            background-color: aliceblue;
+        }
+
+        #search {
+            background-color: rgb(240, 248, 255);
+        }
+
+        #search:hover {
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: aliceblue;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border: 2px solid rgb(103, 103, 103);
+            display: inline-block;
+        }
+
+        div #logocir {
+            position: relative;
+            top: 115px;
+            left: 100px;
+            height:1000px;
+        }
+
+        #select {
+            position: relative;
+            bottom: 4px;
+            padding: 10px 20px;
+            background-color: rgb(222, 184, 135);
+            color: black;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #select:hover {
+            background-color: darkgoldenrod;
+            color: white;
+        }
+
+        #rkgyms {
+            font-size: 50px;
+            position: absolute;
+            top: 201px;
+            left: 570px;
+            background-color: rgb(255, 255, 255, 0.7);
+            color: rgba(0, 0, 0, );
+            height: 370px;
+            width: 720px;
+            padding-left: 10px;
+        }
+
+        #footer1 {
+            display: inline;
+            color: aliceblue;
+            position: absolute;
+            bottom: 0px;
+            padding: 20px 160px 0px 100px;
+            margin: 0px 0px;
+            background-color: rgb(0, 0, 0, 0.7);
+            height: 100px;
+        }
+
+        #details {
+            position: absolute;
+            bottom: 1px;
+            color: aliceblue;
+        }
+
+        #details[open] {
+            background-color: black;
+            width: auto;
+            margin: 10px 160px 0px 100px;
+            padding: 20px;
+
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div id="main">
+        <header class="header">
+            <div id="left"> <img src="assests/Screenshot 2024-11-22 234101.png" alt="" height="50px" width="70px">
+                <img src="assests/Sigma Softgel & Formulation.png" alt="" height="50px">
+            </div>
+
+            <div id="mid">
+
+                <center><input type="search" placeholder="Search" id="search"></center>
+
+            </div>
+
+            <div id="right">
+                <nav id="nav">
+                    <a href="home.html" id="home">Home</a>
+                    <a href="#" id="about"> About</a>
+                    <a href="pages/login.html" id="login">Login</a>
+                </nav>
+            </div>
+        </header>
+
+    </div>
+    <div>
+        <div id="logocir">
+            <img src="assests/Screenshot 2024-11-22 234101.png" height="370px" width="470px">
+        </div>
+    </div>
+    <div id="rkgyms">
+        <center>
+            <h1>RK GYM'S</h1>
+        </center>
+        <center>
+            <p style="font-size:45PX;">Health And Fitness Club</p>
+        </center>
+        <p style="font-size:30px;margin:10px 5px;">"Start Your Journey: Explore RK Gym Plans Now"</p>
+        <p style="font-size:20px;margin:1px 5px;">Step 1: Select Your Plan – Choose the fitness plan that suits you
+            best." <br>
+            "Step 2: Fill Out the Application – Provide your personal and contact details." <br>
+            "Step 3: Health & Fitness Information – Share your fitness goals and health history."</p>
+        <center> <a href="./pages/plans.html"><input type="button" value="Selact plan" id="select"></a>
+    </div>
+
+
+    <div id="footer1">
+        By joining RK Gym, you agree to follow all gym rules and policies. Membership fees are non-refundable, and
+        renewal is automatic unless canceled at least 7 days before the renewal date. Members must disclose any medical
+        conditions. RK Gym is not responsible for injuries or lost personal belongings. Membership is non-transferable,
+        and access is for registered members only. We reserve the right to modify services, cancel memberships for
+        policy violations, and use photos or videos for promotional purposes. For more details, please refer to our full
+        terms. </div>
+    <details id="details">
+        <summary>Read All T&C</summary>
+        <h1>Terms & Conditions</h1>
+        <p>1.Membership Agreement: By signing up, members agree to abide by all rules and policies of RK Gym. Failure
+            to comply may result in membership termination without a refund.</p><br>
+
+        <p>2.Payments & Renewals: Membership fees are non-refundable and must be paid in advance. Automatic renewals
+            apply unless canceled at least 7 days before the renewal date.</p><br>
+
+        <p>3.Health & Safety: Members must disclose any pre-existing medical conditions. RK Gym is not responsible for
+            injuries or health issues arising from undisclosed conditions or improper use of equipment.</p> <br>
+
+        <p>4.Personal Belongings: RK Gym is not liable for lost, stolen, or damaged personal belongings. Lockers are
+            provided for convenience but are used at members own risk.</p><br>
+
+        <p>5.Conduct & Etiquette: Members are expected to maintain proper gym etiquette, including wiping down
+            equipment after use, returning weights, and respecting other members and staff.</p><br>
+
+        <p>6.Facility Access: Memberships are non-transferable. Access is granted only to the registered member and
+            may require a valid ID or membership card upon entry.</p><br>
+
+        <p>7.Modification of Services: RK Gym reserves the right to modify operating hours, class schedules, or
+            equipment availability without prior notice.</p><br>
+
+        <p>8.Termination Policy: RK Gym reserves the right to terminate memberships for violation of terms,
+            inappropriate behavior, or failure to adhere to gym policies.</p><br>
+
+        <p>9.Photography & Media Consent: By using the facility, members consent to being photographed or recorded for
+            promotional purposes. If you do not wish to be included, please notify the staff.</p><br>
+
+        <p>Changes to Terms: RK Gym may update these terms at any time. Continued use of the gym constitutes
+            acceptance of the latest terms and conditions.</p><br>
+    </details>
+
+</body>
+
+</html>

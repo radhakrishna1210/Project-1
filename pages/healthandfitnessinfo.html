@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(../assests/bg\ img.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        #left {
+            border: 2px solid black;
+            display: inline-block;
+            width: auto;
+            height: auto;
+        }
+
+        #mid {
+            border: 2px solid black;
+            display: block;
+            width: 165px;
+            height: px;
+            margin: auto auto;
+            position: relative;
+            bottom: 40px;
+            color: black;
+        }
+
+        #right {
+            width: auto;
+            display: block;
+            position: absolute;
+            right: 10px;
+            top: 15px;
+
+        }
+
+        nav a:hover {
+            color: black;
+            background-color: aliceblue;
+        }
+
+        #search {
+            background-color: rgb(240, 248, 255);
+
+        }
+
+        #search:hover {
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: aliceblue;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border: 2px solid rgb(103, 103, 103);
+            display: inline-block;
+        }
+
+        #allform {
+            width: 700px;
+            height: auto;
+            font-size: larger;
+            padding-left: 10px;
+            position: relative;
+            left: 400px;
+            background-color: rgb(255,255,255,0.8);
+            color: black;
+        }
+        #submitbutton{
+            height:30px;
+            width:80px;
+            position: relative;
+            bottom: 10px;
+            background-color: burlywood;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div id="left"> <img src="../assests/Screenshot 2024-11-22 234101.png" alt="" height="50px" width="70px">
+            <img src="../assests/Sigma Softgel & Formulation.png" alt="" height="50px">
+        </div>
+
+        <div id="mid">
+
+            <center><input type="search" placeholder="Search" id="search"></center>
+
+        </div>
+
+        <div id="right">
+            <nav id="nav">
+                <a href="../home.html" id="home">Home</a>
+                <a href="#" id="about"> About</a>
+                <a href="../pages/login.html" id="login">Login</a>
+            </nav>
+        </div>
+    </header>
+    <div id="allform">
+        <form action="">
+            <center>
+                <h1 id="h1"> Health & Fitness Information </h1>
+            </center>
+
+            1. What are your primary fitness goals?<br>
+            <div style="margin-left: 20px;"><input type="checkbox" id="weight-loss" value="Weight Loss"> &nbsp; Weight
+                Loss <br>
+
+
+                <input type="checkbox" id="muscle-gain" value="Muscle Gain"> &nbsp; Muscle Gain <br>
+
+
+                <input type="checkbox" id="endurance" name="fitness_goals" value="Endurance Improvement"> &nbsp;
+                Endurance
+                Improvement <br>
+
+                <input type="checkbox" id="general-fitness" name="fitness_goals" value="General Fitness"> &nbsp; General
+                Fitness<br>
+
+
+                <input type="checkbox" id="other" value="Other"> &nbsp; Other (please specify):
+                <input type="text" id="other-goal" placeholder="Enter other goal">
+            </div><br>
+
+
+            2.Do you have any pre-existing medical conditions or injuries?<br>
+            <div style="margin-left: 20px;">
+                <input type="radio" id="medical-yes" name="medical-conditions" value="Yes">&nbsp; Yes<br>
+                <input type="radio" id="medical-no" name="medical-conditions" value="No">&nbsp; No<br> If yes, please specify:
+                <input type="text" id="medical-details" name="medical-conditions" placeholder="Enter details">
+            </div><br>
+
+
+            3.Are you currently taking any medication?<br>
+            <div style="margin-left: 20px;">
+                <input type="radio" id="medication-yes" name="medication" value="Yes"> &nbsp; Yes<br>
+
+                <input type="radio" id="medication-no" name="medication" value="No"> &nbsp; No<br>
+
+              If yes, please specify:
+                <input type="text" id="medication-details" name="medication" placeholder="Enter details">
+            </div><br>
+
+
+            4.Do you have any dietary restrictions or preferences?<br>
+            <div style="margin-left: 20px;">
+                <input type="radio" id="dietary-yes" name="dietary-restrictions" value="Yes"> &nbsp; Yes<br>
+
+                <input type="radio" id="dietary-no" name="dietary-restrictions" value="No"> &nbsp; No<br>
+
+                If yes, please specify:
+                <input type="text" id="dietary-details" name="dietary-restrictions" placeholder="Enter details">
+            </div><br>
+
+          <center><a href=""> <button type="submit" id="submitbutton">Submit</button></a></center> 
+
+        </form>
+    </div>
+
+</body>
+
+</html>
